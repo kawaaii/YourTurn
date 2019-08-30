@@ -1,3 +1,5 @@
+[![Gitter](https://img.shields.io/gitter/room/kawaaii/YourTurn)](https://gitter.im/kawaaii/YourTurn)
+
 YourTurn
 ========
 
