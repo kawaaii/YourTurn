@@ -5,9 +5,7 @@
   "main": "player.js",
   "scripts": {
     "start": "electron .",
-    "packager-linux-x64": "electron-packager . yourturn --config package.json --asar.unpackDir=bin --ignore=bin/win --overwrite --platform linux --arch x64 --out dist/linux/",
-    "installer-linux-x64": "electron-installer-debian --src dist/linux/yourturn-linux-x64/ --dest dist/installers/ --arch amd64 --config debian.json",
-    "packager-windows-x64": "electron-packager . yourturn --config package.json --asar.unpackDir=bin --ignore=bin/linux --overwrite --platform win32 --arch x64 --out dist/windows/",
+    "packager-windows-x64": "electron-packager . YourTurn --config package.json --icon=assets/icons/icon.ico --ignore=scripts  --overwrite --platform win32 --arch x64 --out dist/windows/",
     "installer-windows-x64": "electron-installer-windows --src dist/windows/yourturn-win32-x64/ --dest dist/installers/"
   },
   "keywords": [
@@ -22,9 +20,8 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "ffmpeg": "0.0.4",
+    "ffmpeg-static": "2.5.0",
     "fluent-ffmpeg": "^2.1.2",
-    "moment-duration-format": "^2.3.2",
-    "youtube-dl": "^2.0.1",
     "yt-search": "^0.4.1",
     "ytdl-core": "^0.29.5",
     "ytdl-getinfo": "^1.1.0"
@@ -32,7 +29,6 @@
   "devDependencies": {
     "electron": "^6.0.4",
     "electron-builder": "^21.2.0",
-    "electron-installer-debian": "^2.0.0",
     "electron-installer-windows": "^2.0.0",
     "electron-packager": "^14.0.5"
   }
