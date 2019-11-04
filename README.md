@@ -3,6 +3,8 @@
 YourTurn
 ========
 
+[![Join the chat at https://gitter.im/kawaaii/YourTurn](https://badges.gitter.im/kawaaii/YourTurn.svg)](https://gitter.im/kawaaii/YourTurn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 YourTurn is an Open-Source project to play music from YouTube on your desktop (Windows and Linux). <br>
 It's built with Electron, Node.js, ExpressJS, and uses the YTDL in combination with FFmpeg!.
 
