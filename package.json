@@ -30,7 +30,7 @@
     "ytdl-getinfo": "^1.1.0"
   },
   "devDependencies": {
-    "electron": "^6.0.4",
+    "electron": "^9.1.0",
     "electron-builder": "^21.2.0",
     "electron-installer-debian": "^2.0.0",
     "electron-installer-windows": "^2.0.0",
